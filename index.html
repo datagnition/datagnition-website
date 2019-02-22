@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Always force latest IE rendering engine (even in intranet) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="cleartype" content="on" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-528BRMN');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121208125-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-121208125-3');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '460997127770618');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=460997127770618&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <title>Datagnition: inexpensive &amp; scalable machine learning in the cloud</title>
+    <meta name="description" content="Spend twice less on machine learning by switching from AWS, Azure or Google Cloud" />
+    <meta name="Copyright" content="Pandora Core AG" />
+
+    <!-- Twitter: see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary for details -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@pandoracoreag">
+    <meta name="twitter:title" content="Datagnition: inexpensive &amp; scalable machine learning in the cloud">
+    <meta name="twitter:description" content="Spend twice less on machine learning by switching from AWS, Azure or Google Cloud">
+    <meta name="twitter:image" content="https://datagnition.com/assets/smm/datagnition.jpg">
+
+    <!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
+    <meta property="og:title" content="Datagnition: inexpensive &amp; scalable machine learning in the cloud" />
+    <meta property="og:description" content="Spend twice less on machine learning by switching from AWS, Azure or Google Cloud" />
+    <meta property="og:url" content="datagnition.com" />
+    <meta property="og:image" content="https://datagnition.com/assets/smm/datagnition.jpg" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="314" />
+
+    <style>
+        #header {
+            background: black url("assets/images/banner.jpg") no-repeat center top scroll;
+            background-size: cover;
+        }
+        #header h1{
+            font-weight: 800;
+        }
+        #header .lead {
+            font-weight: 600;
+            font-size: 200%;
+        }
+        #particles {
+            position: absolute;
+            top: 166px;
+            height: 333px;
+            width: 100%;
+            z-index: 0;
+        }
+        #particles + div {
+            position: relative;
+            z-index: 1;
+        }
+        #contact {
+            background: #212529 url("assets/images/worldmap.png") no-repeat center scroll;
+        }
+        #contact input,
+        #contact textarea {
+            padding: 20px;
+        }
+
+        .neuralnetwork {
+            height: 200px;
+            background: url("assets/images/neuralnetwork.svg") no-repeat center center scroll;
+            background-size: cover;
+        }
+
+        ul.social-buttons li a {
+            text-align: center;
+            font-size: 20px;
+            line-height: 50px;
+            display: block;
+            width: 50px;
+            height: 50px;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+            color: white;
+            border-radius: 100%;
+            outline: none;
+            background-color: #212529;
+        }
+
+        ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+            background-color: #2a8f96;
+        }
+    </style>
+</head>
+<body class="">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-528BRMN"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header id="header" class="text-light">
+        <nav class="navbar navbar-dark">
+            <a class="navbar-brand mx-auto" href="#">
+                <img src="assets/images/datagnition-logo.png" width="266" alt="">
+            </a>
+        </nav>
+        <div>
+            <div id="particles"></div>
+            <div class="w-75 p-5">
+                <div class="my-5"></div>
+                <h1 class="display-4 text-uppercase">Spend twice less on machine learning</h1>
+                <p class="lead">by switching from AWS, Azure or Google Cloud</p>
+                <p class="lead">
+                    <a href="#contact_form" class="btn btn-lg btn-secondary">Request Access</a>
+                </p>
+                <div class="py-3"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="frameworks" class="py-3">
+            <ul class="list-inline row align-items-center">
+                <li class="list-inline-item col">
+                    <a class="" href=""><img src="assets/images/keras.png" alt="Keras" width="166"></a></li>
+                <li class="list-inline-item col">
+                    <a class="" href=""><img src="assets/images/tensorflow.jpg" alt="TensorFlow" width="166"></a></li>
+                <li class="list-inline-item col">
+                    <a class="" href=""><img src="assets/images/pytorch.png" alt="PyTorch" width="166"></a></li>
+                <li class="list-inline-item col">
+                    <a class="" href=""><img src="assets/images/sklearn.png" alt="SciKit-Learn" width="166"></a></li>
+                <li class="list-inline-item col">
+                    <a class="" href=""><img src="assets/images/numpy.jpg" alt="NumPy" width="166"></a></li>
+            </ul>
+        </section>
+
+        <!-- section id="for" class="py-5">
+            For:
+            - AI-based Startups
+            - R&D Centers
+            - Pharmaceuticals
+            - Genetics &amp; Life Sciences
+        </section -->
+    </div>
+
+    <main class="bg-dark text-light" style="background-color: black !important;">
+        <section id="architecture" class="container py-5">
+            <h2 class="display-3 pb-4">How it works</h2>
+            <p class="w-75">We utilize grid computing over a distributed network of underused GPU-based hardware
+                that belongs to data centers or private users.</p>
+
+            <p><img src="assets/images/workflow.svg" alt="Workflow" class="w-100"></p>
+
+            <p class="lead w-75"><strong>The actual know how is in a way we ensure the computing speed and quality:
+                it is done with advanced game theory models, consensus algorithms and blockchain</strong></p>
+
+            <p class="text-muted w-75">You can think of our system as of early days Google using cheap commodity
+                hardware with advanced load balancing, fault protection and quality assurance algorithms</p>
+
+        </section>
+
+        <div class="neuralnetwork">
+        </div>
+
+        <section id="services" class="container py-5">
+            <h2 class="display-3 pb-4">We do all the hard work</h2>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-6x fa-project-diagram mb-4"></i>
+                        <h3 class="h4 mb-4">Easy APIs</h3>
+                        <p class="text-muted mb0">Automate computing with Datagnition by utilizing our GraphQL APIs
+                        and Java, JavaScript, Python, Scala & Erlang SDKs</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-6x fa-file-code mb-4"></i>
+                        <h3 class="h4 mb-4">Custom Integration</h3>
+                        <p class="text-muted mb0">We can do all the heavy-lifting for integration of our computing
+                        technology into your existing business processes and software stacks</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-6x fa-shield-alt mb-4"></i>
+                        <h3 class="h4 mb-4">Quality control</h3>
+                        <p class="text-muted mb0">We work at standard industry SLA taking all the burden from
+                        the decentralized network on our advanced load-balancing, fault-protection and
+                        error detection systems</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="contact" class="bg-dark text-light py-5">
+        <a id="contact_form" name="contact_form"></a>
+        <header class="container">
+            <h2 class="display-3">Contact Us</h2>
+            <p class="lead pb-4">Write us to get an early access to the system</p>
+        </header>
+        <form id="contactForm" name="sentMessage" class="container" novalidate="novalidate" action="https://submit-form.com/1dTMgO7FPyyUAp_A82xlw" target="_self">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="company" type="text" placeholder="Company Name *" required="required" data-validation-required-message="Please give a name of your company.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message (optional)"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                    <div id="success"></div>
+                    <button id="sendMessageButton" class="btn btn-secondary btn-lg btn-block" type="submit">Send Request</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer id="footer" class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <span class="copyright">&copy; Pandora Core AG 2019</span>
+                </div>
+                <div class="col text-right">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/pandoracoreag">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/pg/Pandora-Core-AG-383957908851235">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://linkedin.com/company/pandoracore">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+          /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+          particlesJS.load('particles', 'assets/particles.json', function() {
+            console.log('callback - particles.js config loaded');
+          });
+        });
+    </script>
+</body>
+</html>
